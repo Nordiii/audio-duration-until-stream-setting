@@ -1,5 +1,5 @@
 {
-  "name": "SoundTimeToStreamSettings",
+  "name": "sttss",
   "title": "SoundTimeToStreamSettings",
   "description": "Set the time for the decision to steam audio to 30 seconds instead of 10 minutes",
   "version": "This is auto replaced",
