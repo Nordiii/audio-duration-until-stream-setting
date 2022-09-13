@@ -1,7 +1,7 @@
 {
-  "id": "SoundTimeToStreamSetting",
-  "name": "SoundTimeToStreamSetting",
-  "title": "Sound Time To Stream Setting",
+  "id": "audio-duration-until-stream-setting",
+  "name": "audio-duration-until-stream-setting",
+  "title": "Audio time to stream setting",
   "description": "Set the time for the decision to stream audio to a different value instead of the default 10 minutes",
   "version": "This is auto replaced",
   "library": "false",
@@ -19,7 +19,7 @@
       "discord": "discordID#0001"
     },{
       "name": "Nordiii",
-      "url": "https://github.com/Nordiii/SoundTimeToStreamSettings"
+      "url": "https://github.com/Nordiii/audio-duration-until-stream-setting"
     }
   ],
   "dependencies": [
