@@ -1,6 +1,6 @@
 {
-  "id": "sttss",
-  "title": "Sound Time To Stream Settings",
+  "id": "SoundTimeToStreamSetting",
+  "title": "Sound Time To Stream Setting",
   "description": "Set the time for the decision to stream audio to a different value instead of the default 10 minutes",
   "version": "This is auto replaced",
   "library": "false",
