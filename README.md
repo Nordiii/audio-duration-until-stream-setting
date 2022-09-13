@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Foundry-v10-informational)
 
-# Sound Time To Stream Setting
+# Audio duration until stream setting   
 
 Usually only music with a length of 10 Minutes or more are streamed. 
 
