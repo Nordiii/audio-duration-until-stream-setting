@@ -4,7 +4,7 @@
   "description": "Set the time for the decision to stream audio to a different value instead of the default 10 minutes",
   "version": "This is auto replaced",
   "library": "false",
-  "manifestPlusVersion": "1.1.0",
+  "manifestPlusVersion": "1.1.1",
   "compatibility": {
     "minimum": "9",
     "verified": "10"
