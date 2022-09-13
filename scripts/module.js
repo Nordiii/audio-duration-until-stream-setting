@@ -1,7 +1,7 @@
 Hooks.once('init', async function() {
-    game.settings.register('SoundTimeToStreamSetting', 'durationToStream', {
-        name: "Time to Stream (seconds)",
-        hint: "The length of a song needed before streaming (default 600 seconds -> 10 min)",
+    game.settings.register('audio-duration-until-stream-setting', 'durationToStream', {
+        name: "Duration until stream (seconds)",
+        hint: "The needed duration of an audio file before streaming instead of downloading (default 600 seconds -> 10 min)",
         config: true,
         scope: "world",
         type: Number,
@@ -12,5 +12,5 @@ Hooks.once('init', async function() {
     });
 
 
-    AudioContainer.MAX_BUFFER_DURATION = game.settings.get("SoundTimeToStreamSetting", "durationToStream")
+    AudioContainer.MAX_BUFFER_DURATION = game.settings.get("audio-duration-until-stream-setting", "durationToStream")
 });
