@@ -1,5 +1,5 @@
 Hooks.once('init', async function() {
-    game.settings.register('SoundTimeToStreamSettings', 'durationToStream', {
+    game.settings.register('sttss', 'durationToStream', {
         name: "Time to Stream",
         hint: "The length of a song needed before streaming (default 600 seconds/10 min)",
         config: true,
