@@ -1,5 +1,6 @@
-![](https://img.shields.io/badge/Foundry-v10-informational)
-
+![Crates.io (latest)](https://img.shields.io/github/v/release/Nordiii/audio-duration-until-stream-setting?style=for-the-badge)
+![Foundry Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Fstyle%3Dfor-the-badge%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FNordiii%2Faudio-duration-until-stream-setting%2Fmaster%2Fmodule.json&prefix=v&color=ff601e&label=Compatible%20Foundry%20Versions)
+![GitHub all releases](https://img.shields.io/github/downloads/Nordiii/audio-duration-until-stream-setting/total?style=for-the-badge&label=Module%20Downloads)
 # Audio duration until stream setting   
 
 Usually only audio with a duration of 10 Minutes or more are streamed. 
