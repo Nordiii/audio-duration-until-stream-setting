@@ -6,10 +6,11 @@
   "version": "This is auto replaced",
   "library": "false",
   "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "10",
+  "compatibleCoreVersion": "12",
+  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": "9",
-    "verified": "11"
+    "verified": "12"
   },
   "authors": [
     {
@@ -20,9 +21,10 @@
   "dependencies": [
 
   ],
-  "conflicts": [
-    
-  ],
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
   "esmodules": [
     "/scripts/module.js"
   ],

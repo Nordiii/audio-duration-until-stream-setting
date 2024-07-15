@@ -7,10 +7,14 @@ Hooks.once('init', async function() {
         type: Number,
         default: 600,
         onChange: (data) => {
-            AudioContainer.MAX_BUFFER_DURATION = data
+            if(parseInt(game.version.split(".")[0])>=12)
+                foundry.audio.Sound.MAX_BUFFER_DURATION = data
+            else
+                AudioContainer.MAX_BUFFER_DURATION = data
         }
     });
-
-
-    AudioContainer.MAX_BUFFER_DURATION = game.settings.get("audio-duration-until-stream-setting", "durationToStream")
+    if(parseInt(game.version.split(".")[0])>=12)
+        foundry.audio.Sound.MAX_BUFFER_DURATION = game.settings.get("audio-duration-until-stream-setting", "durationToStream");
+    else
+        AudioContainer.MAX_BUFFER_DURATION = game.settings.get("audio-duration-until-stream-setting", "durationToStream")
 });
