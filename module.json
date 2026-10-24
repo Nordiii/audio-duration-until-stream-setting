@@ -6,11 +6,11 @@
   "version": "This is auto replaced",
   "library": "false",
   "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "13",
+  "compatibleCoreVersion": "14",
   "manifestPlusVersion": "1.2.1",
   "compatibility": {
     "minimum": "9",
-    "verified": "13"
+    "verified": "14"
   },
   "authors": [
     {
